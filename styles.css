@@ -1,0 +1,35 @@
+/*
+    cor principal #202124
+    cor do botão #303134
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #202124;
+}
+
+header {
+    height: 50px;
+}
+
+header nav {
+    display: inline-block;
+    width: 100%;
+    background-color: red;
+    vertical-align: top;
+}
+
+header nav ul{
+    list-style-type: none;
+    color: white;
+    background-color: royalblue;
+}
+
+header nav ul li{
+    float: left;
+    font-size: 12pt;
+    text-align: center;
+    width: 50%;
+    background-color: green;
+}
