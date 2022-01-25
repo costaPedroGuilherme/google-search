@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Advanced Searhc</title>
+    <link rel="stylesheet" type="text/css" href="advanced-styles.css">
+</head>
+<body>
+    <header>
+        <ul>
+            <li id="logo"><img src="logo.png" alt="logo"></li>
+            <li id="return"><a href="home.html">Google Search</a></li>
+        </ul>
+        <h1>Advanced search</h1>
+    </header>
+    <section>
+        <div class="content">
+            <div class="line">
+                <div class="query" id="q1">Find pages with...</div>
+                <div class="field"></div>
+                <div class="tips" id="t1">To do this in the search box</span></div>
+            </div>
+            <div class="line">
+                <div class="query">all these words</div>
+                <div class="field"><input autofocus name="as_q" type="text"></div>
+                <div class="tips">Type the important words: <span>rat terrier tricolor</span></div>
+            </div>
+            <div class="line">
+                <div class="query">this exact word or phrase</div>
+                <div class="field"><input name="as_epq" type="text"></div>
+                <div class="tips">Put exact words in quote: <span>"rat terrier"</span></div>
+            </div>
+            <div class="line">
+                <div class="query">any of these words</div>
+                <div class="field"><input name="as_oq" type="text"></div>
+                <div class="tips">Type <span>OR</span> between all the words you want <span>miniature OR standard</span></div>
+            </div>
+            <div class="line" id="l5">
+                <div class="query">none of these words</div>
+                <div class="field"><input name="as_eq" type="text"></div>
+                <div class="tips">Put a minus sign just before words you don't want: <span>-rodent, -"Jack Russell"</span></div>
+            </div>
+        </div>
+        <center>
+            <input type="submit" value="Advanced Search" id="search">
+        </center>
+    </section>
+</body>
+</html>
