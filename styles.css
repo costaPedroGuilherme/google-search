@@ -10,26 +10,59 @@ body {
 }
 
 header {
-    height: 50px;
+    height: 55px;
 }
 
 header nav {
     display: inline-block;
     width: 100%;
-    background-color: red;
-    vertical-align: top;
+    vertical-align: bottom;
 }
 
 header nav ul{
     list-style-type: none;
     color: white;
-    background-color: royalblue;
+    width: 15%;
+    margin-left: 80%;
 }
 
 header nav ul li{
     float: left;
-    font-size: 12pt;
+    font-size: 11pt;
     text-align: center;
     width: 50%;
-    background-color: green;
+    margin-top: 5px;
+}
+
+section {
+    padding-top: 10px;
+}
+
+section img {
+    margin-left: calc(50% - 136px);
+}
+
+section form {
+    margin-top: 20px;
+    margin-left: calc(50% - 290px);
+    width: 580px;
+}
+
+#txtPesquisa {
+    height: 40px;
+    width: 580px;
+    background-color: #202124;
+    border: 1px solid #5F6368;
+    border-radius: 100px;
+}
+
+#txtPesquisa:hover {
+    background-color: #303134;
+    border: none;
+}
+
+#sbmPesquisa {
+    color: white;
+    background-color: #303134;
+    border: none;
 }
