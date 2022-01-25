@@ -7,6 +7,16 @@ body {
     margin: 0;
     padding: 0;
     background-color: #202124;
+    font-family: Arial, sans-serif;
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 header {
@@ -22,8 +32,8 @@ header nav {
 header nav ul{
     list-style-type: none;
     color: white;
-    width: 15%;
-    margin-left: 80%;
+    width: 20%;
+    margin-left: 75%;
 }
 
 header nav ul li{
@@ -51,7 +61,7 @@ section form {
 #txtPesquisa {
     height: 40px;
     width: 580px;
-    background-color: #202124;
+    background-color: transparent;
     border: 1px solid #5F6368;
     border-radius: 100px;
 }
@@ -61,8 +71,24 @@ section form {
     border: none;
 }
 
-#sbmPesquisa {
-    color: white;
+#txtPesquisa:active {
     background-color: #303134;
     border: none;
+}
+
+.btn {
+    color: white;
+    background-color: #303134;
+    border: 1px solid #303134;
+    border-radius: 4px;
+    color: #e8eaed;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
 }
